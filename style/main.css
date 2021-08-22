@@ -9,9 +9,11 @@
     box-sizing: border-box;
 }
 
+/*Elementos base*/
 body{
     background: var(--preta);
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 
 header .container{
@@ -37,4 +39,13 @@ header nav a{
 
 header nav a:hover{ /*Para criar o evento de passar o mouse em cima e trocar a cor*/
     color: #fff;
+}
+
+/*Filme principal*/
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/capa-game-of-thrones-3.jpg');
+
+    height: 400px;
+    background-size: cover;
 }
