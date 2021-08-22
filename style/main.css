@@ -1,51 +1,67 @@
-:root{ /*boa prática, quando precisa utilizar uma cor e tem que mudar em algum momento*/
+:root {
+    /*boa prática, quando precisa utilizar uma cor e tem que mudar em algum momento*/
     --vermelho: #E50914;
     --preta: #141414;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 /*Elementos base*/
-body{
+body {
     background: var(--preta);
     font-family: 'Times New Roman', Times, serif;
     color: white;
 }
 
-header .container{
+header .container {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
 
-header .logo{
+header .logo {
     margin-left: 5px;
     color: var(--vermelho);
     font-family: 'Arial Black';
     font-size: 40px;
 }
 
-header nav a{
+header nav a {
     text-decoration: none;
     color: #aaa;
     margin-right: 10px;
 
 }
 
-header nav a:hover{ /*Para criar o evento de passar o mouse em cima e trocar a cor*/
+header nav a:hover {
+    /*Para criar o evento de passar o mouse em cima e trocar a cor*/
     color: #fff;
 }
 
 /*Filme principal*/
-.filme-principal{
+.filme-principal {
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/capa-game-of-thrones-3.jpg');
+    /*passando rgba duas vezes, é criado uma camada fina de preto em cima da imagem*/
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('/img/capa-game-of-thrones-3.jpg');
 
     height: 400px;
     background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 40px;
+}
+
+.titulo{
+    font-size: 40px;
 }
