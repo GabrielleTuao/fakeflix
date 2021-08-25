@@ -65,3 +65,10 @@ header nav a:hover {
 .titulo{
     font-size: 40px;
 }
+
+.botao{
+    background-color: rgba(0, 0,0, .50);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+}
