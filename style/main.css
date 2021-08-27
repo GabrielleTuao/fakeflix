@@ -48,7 +48,7 @@ header nav a:hover {
 .filme-principal {
     font-size: 16px;
     /*passando rgba duas vezes, é criado uma camada fina de preto em cima da imagem*/
-    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('/img/capa-game-of-thrones-3.jpg');
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('/img/capa-game-of-thrones-1.jpg');
 
     height: 400px;
     background-size: cover;
@@ -60,11 +60,14 @@ header nav a:hover {
 }
 
 .filme-principal .descricao{
+    margin-top: 10px;
     margin-bottom: 40px;
 }
 
-.titulo{
+.filme-principal .titulo{
+    margin-top: 15%;
     font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .botao{
@@ -74,4 +77,16 @@ header nav a:hover {
     padding: 15px 30px;
     margin-right: 15px;
     font-size: 12px;
+    cursor: pointer;
+
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 8px;
 }
