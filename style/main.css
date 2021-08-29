@@ -92,7 +92,10 @@ header nav a:hover {
 }
 
 /*# WRAPPER == Envelopar,objetivo de uma classe conteiner é envelopar por isso o conceito*/
+.container{
+    margin-left: 20px;
+}
 
 .filme-principal .container{
-    margin-left: 20px;
+    width: 70%;
 }
