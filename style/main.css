@@ -71,7 +71,7 @@ header nav a:hover {
 }
 
 .botao{
-    background-color: rgba(0, 0, 0, .50);
+    background-color: rgba(0, 0, 0, .55);
     border: none;
     color: white;
     padding: 15px 30px;
@@ -89,4 +89,10 @@ header nav a:hover {
 
 .botao i{
     margin-right: 8px;
+}
+
+/*# WRAPPER == Envelopar,objetivo de uma classe conteiner é envelopar por isso o conceito*/
+
+.filme-principal .container{
+    margin-left: 20px;
 }
