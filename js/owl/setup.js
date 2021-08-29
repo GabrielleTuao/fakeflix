@@ -4,7 +4,7 @@ $('.owl-carousel').owlCarousel({
     nav:false, /* posso deixar como false ou true, com true fica duas setinhas acima das bolinhas */
     responsive:{
         0:{
-            items:1
+            items:2
         },
         600:{
             items:3
